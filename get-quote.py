@@ -8,7 +8,12 @@ def primary():
     quotes = f.readlines()
     f.close()
 
-    print(quotes[13])
+    # MADE VAR CALLED "last" TO HOLD ALL ELEMENTS IN THE ARRAY
+    # USED THE RANDOM FUNCTION
+    last = 13
+    rnd = random.randint(0, last)
+
+    print(quotes[rnd])
 
 
 if __name__ == "__main__":
